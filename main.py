@@ -1,13 +1,13 @@
 # -*- coding: utf-8 -*-
 
-import platform
+from platform import machine, version, platform, uname, system, processor
 from kivy.app import App
-makineadi1=platform.machine()
-makine_versionu=platform.version()
-makine_platform=platform.platform()
-makine_adi=platform.uname()
-makine_system=platform.system()
-makine_islemci=platform.processor()
+makineadi1=machine()
+makine_versionu=version()
+makine_platform=platform()
+makine_adi=uname()
+makine_system=system()
+makine_islemci=processor()
 class olayUyg(App):
     def build(self):
         self.root.ids.mesaj1.text='makine info: {} !'.format(makineadi1)
