@@ -1,7 +1,7 @@
 [app]
 
 # (str) Title of your application
-title = DexmoD was HeRe
+title = ilk uygulamam
 
 # (str) Package name
 package.name = uygulamam
@@ -37,7 +37,7 @@ version = 0.1
 
 # (list) Application requirements
 # comma separated e.g. requirements = sqlite3,kivy
-requirements = python3,kivy,platform
+requirements = python3,kivy
 
 # (str) Custom source folders for requirements
 # Sets custom source for any requirements with recipes
@@ -338,7 +338,7 @@ android.allow_backup = True
 ios.kivy_ios_url = https://github.com/kivy/kivy-ios
 ios.kivy_ios_branch = master
 
-# Another platform dependency: ios-deploy
+# Another dependency: ios-deploy
 # Uncomment to use a custom checkout
 #ios.ios_deploy_dir = ../ios_deploy
 # Or specify URL and branch
