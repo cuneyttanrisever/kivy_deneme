@@ -20,7 +20,7 @@ class olayUyg(App):
         kulladi1 = self.root.ids.kulladi.text
         kullsifre1=self.root.ids.kullsifre.text
         if kulladi1=="DexmoD" and kullsifre1=="DexmoD":
-            self.root.ids.mesaj.text='Merhaba {} !'.format(kulladi1)
+            self.root.ids.mesaj.text='Merhaba [color=#FF0000] %s [/color] !' % kulladi1
         else:
             self.root.ids.mesaj.text='Kullanıcı adı veya Kullanıcı Şifresi Hatalı'
         
