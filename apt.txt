@@ -1,42 +1,92 @@
-git clone https://github.com/kivy/buildozer.git
-cd buildozer
-sudo python setup.py install
-apt-get install adb
-.......................
-sudo apt-get install android-tools-adb android-tools-fastboot
-bulıd dozer yuklemek ıcın
-sudo apt-get install openjdk-8-jdk
-sudo apt-get install unzip
-sudo apt install python3 python3-pip ipython3
-sudo apt install cython
-sudo apt-get install autoconf
-sudo apt-get install xclip
-sudo apt install build-essential libltdl-dev libffi-dev libssl-dev python-dev
-sudo pip3 install --upgrade cython
-sudo apt-get install zip
-sudo buildozer android debug deploy run logcat
+rm -rf *
+pip install buildozer
+pip install cython==0.29.19
 sudo apt-get install -y \
-    python3-pip \
-    build-essential \
-    git \
-    python3 \
-    python3-dev \
-    ffmpeg \
-    libsdl2-dev \
-    libsdl2-image-dev \
-    libsdl2-mixer-dev \
-    libsdl2-ttf-dev \
-    libportmidi-dev \
-    libswscale-dev \
-    libavformat-dev \
-    libavcodec-dev \
-    zlib1g-dev
+            python3-pip \
+            build-essential \
+            git \
+            python3 \
+            python3-dev \
+            ffmpeg \
+            libsdl2-dev \
+            libsdl2-image-dev \
+            libsdl2-mixer-dev \
+            libsdl2-ttf-dev \
+            libportmidi-dev \
+            libswscale-dev \
+            libavformat-dev \
+            libavcodec-dev \
+            zlib1g-dev
 sudo apt-get install -y \
-    libgstreamer1.0 \
-    gstreamer1.0-plugins-base \
-    gstreamer1.0-plugins-good
+           libgstreamer1.0 \
+           gstreamer1.0-plugins-base \
+           gstreamer1.0-plugins-good
 sudo apt-get install build-essential libsqlite3-dev sqlite3 bzip2 libbz2-dev zlib1g-dev libssl-dev openssl libgdbm-dev libgdbm-compat-dev liblzma-dev libreadline-dev libncursesw5-dev libffi-dev uuid-dev libffi6
 sudo apt-get install libffi-dev
+sudo apt-get install openjdk-21-jdk
+sudo apt-get install autoconf
 buildozer init
 buildozer -v android debug
 buildozer android clean
+sudo buildozer android clean
+pip install -U cython
+sudo apt-get install autoconf
+apt remove openjdk-*
+apt install openjdk-17-jdk openjdk-17-jre
+sudo apt update
+sudo apt install -y git zip unzip python3-pip autoconf libtool pkg-config zlib1g-dev libncurses5-dev libncursesw5-dev libtinfo5 cmake libffi-dev libssl-dev
+apt-get update
+apt-get upgrade
+buildozer android debug
+ile
+
+google colab için
+!rm -rf *
+!pip install buildozer
+!pip install cython==0.29.19
+!sudo apt-get install -y \
+            python3-pip \
+            build-essential \
+            git \
+            python3 \
+            python3-dev \
+            ffmpeg \
+            libsdl2-dev \
+            libsdl2-image-dev \
+            libsdl2-mixer-dev \
+            libsdl2-ttf-dev \
+            libportmidi-dev \
+            libswscale-dev \
+            libavformat-dev \
+            libavcodec-dev \
+            zlib1g-dev
+!sudo apt-get install -y \
+           libgstreamer1.0 \
+           gstreamer1.0-plugins-base \
+           gstreamer1.0-plugins-good
+!sudo apt-get install build-essential libsqlite3-dev sqlite3 bzip2 libbz2-dev zlib1g-dev libssl-dev openssl libgdbm-dev libgdbm-compat-dev liblzma-dev libreadline-dev libncursesw5-dev libffi-dev uuid-dev libffi6
+!sudo apt-get install libffi-dev
+!sudo apt-get install openjdk-21-jdk
+!sudo apt-get install autoconf
+!buildozer init
+!buildozer -v android debug
+!buildozer android clean
+
+
+
+sudo buildozer android clean
+pip install -U cython
+deneniyor sudo apt-get install openjdk-21-jdk
+!sudo apt-get install autoconf
+
+
+
+sudo apt update
+sudo apt install -y git zip unzip python3-pip autoconf libtool pkg-config zlib1g-dev libncurses5-dev libncursesw5-dev libtinfo5 cmake libffi-dev libssl-dev
+
+sudo rm -rf  ~/.gradle
+apt remove openjdk-*
+apt install openjdk-17-jdk openjdk-17-jre
+apt-get update
+apt-get upgrade
+buildozer android debug
